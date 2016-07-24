@@ -112,7 +112,7 @@ render((
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <Route path="about" component={About}/>
-      <Route path="users" component={Users}>
+      <Route path="users" component={User}>
         <Route path="/user/:userId" component={User}/>
       </Route>
       <Route path="*" component={NoMatch}/>
